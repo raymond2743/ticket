@@ -1,0 +1,20 @@
+前置作業網站
+https://stackoverflow.max-everyday.com/2018/03/selenium-chrome-webdriver/
+
+下載Python 3.9.5安裝檔
+https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe
+
+Python跟pip都要加入環境變數
+C:\Users\USER\AppData\Local\Programs\Python\Python39\
+C:\Users\USER\AppData\Local\Programs\Python\Python39\Scripts
+
+安裝selenium
+pip install selenium
+
+安裝必要lib
+cd tixcraft_bot
+python -m pip install -r requirement.txt
+
+執行server
+cd tixcraft_bot
+python settings.py
